@@ -1,0 +1,55 @@
+test
+========================================================
+author: Mark Deegan
+date: `r date()`
+transition: cube
+
+First Slide
+========================================================
+type: section
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+Slide With Code
+========================================================
+type: subsection
+
+```{r, echo=FALSE}
+summary(cars)
+1 + 51
+```
+
+Slide With Plot
+========================================================
+type: section
+
+```{r, echo=TRUE,results=TRUE}
+plot(cars)
+```
+
+Stuff Here On this Slide
+========================================================
+type: subsection
+
+$x * x = x^2$
+```{r}
+x <- 2
+x * x
+```
+   
+
+More Examples Again
+========================================================
+type: subsection
+Again more text
+
+***
+
+and a forumla:
+
+$x = \frac{-b \pm \sqrt{b^2 - 4 a c}}{2 a}$
